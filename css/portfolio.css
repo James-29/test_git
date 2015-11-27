@@ -1,0 +1,116 @@
+/***************************************************************
+    Portfolio
+***************************************************************/
+
+/*****************************En-tête***************************/
+header {
+  text-align: center;
+  background-color: #2889D9;
+  color: white;
+  padding-top: 15px; /*pour faire centrer*/
+  border-radius: 10px;
+}
+#name { /*nom en en-tête*/
+  font-family: Arial;
+  font-size: 35px;
+}
+nav li { /*********tout le bloc de navigation***********/
+  display: inline-block;
+  margin: 15px;
+}
+nav a {
+  text-decoration: none;
+  color: white;
+}
+nav a:hover {
+  color: blue;
+  text-decoration: underline;
+}
+nav ul {
+  padding: 5px;
+  background-color: #00A6DF;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+/*************************corps de la page**********************/
+.picture { /*classe des div des images de l'accueil*/
+  display: inline-block; /*Pour que les images se laissent se placer côte à côte*/
+  width: 44%;
+  height: 300px; /*taille définie pour les images*/
+  margin-left: 4%;
+  text-align: center;
+}
+.image { /*classe des 4 images*/
+  height: 100%;   /*prendre en compte la taille complète de la div*/
+  width: 100%;
+  margin-bottom: -5px;
+  margin-top: 30px;
+}
+.color { /*classe des des descriptions d'images*/
+  background-color: #C3DBE8;
+  color: #69767D;
+  margin: 0%;
+  border-bottom: 10px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  padding-bottom: 15px;
+  padding-top: 15px;
+}
+
+/*************************pied de page**************************/
+footer {
+  text-align: center;
+  margin-top: 30px;
+}
+#copyright {
+  font-family: Arial;
+  font-size: 0.8em; /*adapter la taille des logos en fonction de la fenêtre*/
+  color: grey;
+}
+footer img {
+  height: 30px;
+  width: 30px;
+}
+
+/***************************************************************
+    À propos
+***************************************************************/
+
+/*************************corps de la page**********************/
+#avatar {
+  height: 10%;
+  width: 10%;
+  border-radius: 100%; /*donner un effet de cercle*/
+  margin-left: 45%;
+  margin-right: 45%; /*les propriétés de taille et margin servent à faire centrer l'image*/
+}
+.about { /*le texte de la page à propos*/
+    color: #69767D;
+    text-align: center;
+}
+#abt1 {  /*donne des effets particuliers au "titre" de la page*/
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+/***************************************************************
+    Contact
+***************************************************************/
+
+/*************************corps de la page***********************/
+#contact { /*contenu de la page contact*/
+  margin-left: 15%;
+  color: #69767D;
+}
+.bold {  /*des effets pour donner une "importance"*/
+  font-weight: bold;
+  text-decoration: underline;
+}
+li {
+  list-style-type: none;
+}
+.size {
+  vertical-align: middle;
+  height: 40px;
+}
